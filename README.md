@@ -1,57 +1,102 @@
-# Informe Final de Análisis de Ventas – Alura Store
+# 📊 Análisis de Ventas - Alura Store Latam
 
-## Introducción
+## 📌 Descripción del Proyecto
 
-El objetivo de este análisis es evaluar el desempeño de las cuatro tiendas del Sr. Juan para determinar cuál de ellas debería ser vendida. Para ello, se analizaron diferentes factores clave que influyen en el rendimiento de cada tienda, tales como los ingresos totales, las categorías de productos más y menos vendidas, las calificaciones promedio de los clientes, los productos con mayor y menor número de ventas y el coste promedio de envío.
+Este proyecto tiene como objetivo analizar el rendimiento de cuatro tiendas pertenecientes al Sr. Juan para determinar cuál de ellas debería ser vendida. A través del análisis de datos y la generación de visualizaciones, se evalúan distintos factores que influyen en el desempeño de cada tienda.
 
-A partir de estos análisis y de las visualizaciones generadas, se busca identificar las fortalezas y debilidades de cada tienda para tomar una decisión estratégica basada en datos.
+El análisis incluye métricas clave como:
 
----
+- Ingresos totales por tienda
+- Categorías de productos más y menos vendidas
+- Calificaciones promedio de los clientes
+- Productos más y menos vendidos
+- Coste de envío promedio
 
-## Análisis de los datos
-
-### Ingresos totales de las tiendas
-
-El análisis de los ingresos totales permitió identificar diferencias en el rendimiento financiero entre las tiendas. Algunas tiendas presentan mayores ingresos, lo que indica una mayor cantidad de ventas o productos de mayor valor.
-
-Las tiendas con mayores ingresos muestran un mejor desempeño comercial, mientras que aquellas con ingresos menores podrían tener menor demanda o estrategias de venta menos efectivas.
+El objetivo final es proporcionar una recomendación basada en datos que ayude al Sr. Juan a tomar una decisión estratégica sobre cuál tienda vender.
 
 ---
 
-### Categorías de productos más y menos vendidas
+# 🗂️ Estructura del Proyecto
+AluraStoreLatam/
+│
+├── AluraStoreLatam.ipynb
+├── README.md
 
-El análisis de las categorías de productos permitió identificar cuáles son los tipos de productos más demandados por los clientes. Algunas categorías concentran una mayor cantidad de ventas, lo que indica que son más populares entre los consumidores.
-
-Por otro lado, también se identificaron categorías con menor volumen de ventas, lo que podría indicar menor interés por parte de los clientes o una oferta menos competitiva.
-
----
-
-### Calificaciones promedio de los clientes
-
-Las calificaciones otorgadas por los clientes permiten evaluar el nivel de satisfacción con los productos y servicios ofrecidos por cada tienda.
-
-Las tiendas con calificaciones promedio más altas reflejan una mejor experiencia de compra, lo que puede contribuir a una mayor fidelización de clientes y mejores resultados en ventas. En contraste, calificaciones más bajas pueden indicar problemas relacionados con la calidad de los productos o el servicio.
 
 ---
 
-### Productos más y menos vendidos
+# 🛠️ Tecnologías Utilizadas
 
-El análisis de los productos más vendidos permitió identificar cuáles son los artículos que generan mayor demanda dentro de cada tienda. Estos productos suelen tener un impacto importante en los ingresos totales.
+Este proyecto fue desarrollado utilizando Python y las siguientes librerías:
 
-Asimismo, también se identificaron productos con menor número de ventas, lo cual puede indicar menor interés por parte del mercado o la necesidad de revisar la estrategia de comercialización.
-
----
-
-### Coste de envío promedio
-
-El coste de envío promedio es un factor importante en la decisión de compra de los clientes. Tiendas con costos de envío más elevados pueden resultar menos atractivas para los consumidores.
-
-Por el contrario, tiendas con costes de envío más bajos pueden ofrecer una ventaja competitiva al reducir el costo total de compra.
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook / Google Colab
 
 ---
 
-## Conclusión
+# 📊 Análisis Realizados
 
-Con base en el análisis realizado, se recomienda que el Sr. Juan considere vender la tienda que presenta el menor rendimiento general en comparación con las demás. Esta decisión se basa en factores como menores ingresos totales, menor volumen de ventas en productos clave, calificaciones promedio más bajas por parte de los clientes o mayores costes de envío.
+## 1️⃣ Ingresos Totales por Tienda
 
-Vender la tienda con menor desempeño permitiría al Sr. Juan concentrar sus recursos en las tiendas más rentables y con mayor potencial de crecimiento, optimizando así la gestión de su negocio y mejorando su rentabilidad a largo plazo.
+Se calcularon los ingresos totales generados por cada tienda para evaluar su rendimiento financiero.
+
+## 2️⃣ Categorías de Productos
+
+Se analizaron las categorías de productos más y menos vendidas para entender las preferencias de los clientes.
+
+## 3️⃣ Calificaciones de Clientes
+
+Se evaluó la calificación promedio de los clientes en cada tienda para medir la satisfacción del consumidor.
+
+## 4️⃣ Productos Más y Menos Vendidos
+
+Se identificaron los productos con mayor y menor número de ventas en cada tienda.
+
+## 5️⃣ Coste de Envío Promedio
+
+Se calculó el coste promedio de envío para evaluar su impacto en la competitividad de cada tienda.
+
+---
+
+# 📈 Visualizaciones
+
+Para facilitar la interpretación de los datos se generaron diferentes tipos de gráficos:
+
+- Gráficos de barras
+- Gráficos de pastel
+- Gráficos de líneas
+
+Estas visualizaciones permiten comparar el desempeño de las tiendas y detectar patrones relevantes en los datos.
+
+---
+
+# 🧠 Conclusión
+
+Después de analizar los datos y visualizar los resultados, se identificaron diferencias importantes en el rendimiento de las tiendas.
+
+La recomendación final se basa en la evaluación conjunta de:
+
+- ingresos generados
+- satisfacción de los clientes
+- productos con mayor demanda
+- costos asociados a los envíos
+
+A partir de estos factores, se propone vender la tienda con menor rendimiento general, permitiendo al Sr. Juan concentrar sus recursos en las tiendas con mayor potencial de crecimiento.
+
+---
+
+# ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio
+
+2. Abrir el notebook
+
+3. Ejecutar las celdas para reproducir el análisis.
+
+---
+
+# 👨‍💻 Autor
+
+Proyecto realizado como parte de un proceso de aprendizaje en la especializacion de **Data Science en python**.
